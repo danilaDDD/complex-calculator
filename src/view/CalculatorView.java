@@ -1,6 +1,7 @@
 package view;
 
 import controller.CalculatorController;
+import controller.impl.CalculatorControllerImpl;
 import exception.CommandNotFoundException;
 import exception.ComplexFormatException;
 import model.Complex;
@@ -17,7 +18,7 @@ public class CalculatorView {
 
     public static void runView(){
         ComplexRepository repository = new LoggableComplexRepository(new ComplexRepositoryImpl());
-        CalculatorController calculatorController = new CalculatorController(repository);
+        CalculatorController calculatorController = new CalculatorControllerImpl(repository);
         CalculatorView view = new CalculatorView(calculatorController);
         view.run();
     }

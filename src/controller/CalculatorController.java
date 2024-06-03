@@ -1,28 +1,13 @@
 package controller;
 
 import model.Complex;
-import model.repository.ComplexRepository;
 
-public class CalculatorController{
-    private ComplexRepository complexRepository;
+public interface CalculatorController {
+    Complex plus(Complex a, Complex b);
 
-    public CalculatorController(ComplexRepository complexRepository) {
-        this.complexRepository = complexRepository;
-    }
+    Complex minus(Complex a, Complex b);
 
-    public Complex plus(Complex a, Complex b) {
-        return complexRepository.plus(a, b);
-    }
+    Complex product(Complex a, Complex b);
 
-    public Complex minus(Complex a, Complex b) {
-        return complexRepository.minus(a, b);
-    }
-
-    public Complex product(Complex a, Complex b) {
-        return complexRepository.product(a, b);
-    }
-
-    public Complex divide(Complex a, Complex b) {
-        return complexRepository.divide(a, b);
-    }
+    Complex divide(Complex a, Complex b);
 }
