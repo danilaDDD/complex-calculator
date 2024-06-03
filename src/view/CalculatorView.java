@@ -64,8 +64,7 @@ public class CalculatorView {
         Complex b = parser.parseComplex(scanner.nextLine());
 
 
-        Complex result = invoking.apply(a, b);
-        System.out.println(result);
+        System.out.println(invoking.apply(a, b));
     }
 }
 
