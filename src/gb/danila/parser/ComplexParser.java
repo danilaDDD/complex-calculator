@@ -1,7 +1,7 @@
-package util.parser;
+package gb.danila.parser;
 
-import exception.ComplexFormatException;
-import model.Complex;
+import gb.danila.exception.ComplexFormatException;
+import gb.danila.model.Complex;
 
 public class ComplexParser {
     public Complex parseComplex(String prompt) throws ComplexFormatException {

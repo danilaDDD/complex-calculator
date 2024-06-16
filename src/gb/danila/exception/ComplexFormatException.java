@@ -1,4 +1,4 @@
-package exception;
+package gb.danila.exception;
 
 import java.io.IOException;
 

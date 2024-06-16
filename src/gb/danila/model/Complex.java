@@ -1,4 +1,4 @@
-package model;
+package gb.danila.model;
 
 public class Complex {
     private final double real;

@@ -1,9 +1,9 @@
-package model.repository.impl;
+package gb.danila.model.repository.impl;
 
 
-import logging.Log;
-import model.Complex;
-import model.repository.ComplexRepository;
+import gb.danila.logging.Log;
+import gb.danila.model.Complex;
+import gb.danila.model.repository.ComplexRepository;
 
 import java.util.logging.Logger;
 

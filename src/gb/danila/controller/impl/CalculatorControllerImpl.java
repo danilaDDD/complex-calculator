@@ -1,8 +1,8 @@
-package controller.impl;
+package gb.danila.controller.impl;
 
-import controller.CalculatorController;
-import model.Complex;
-import model.repository.ComplexRepository;
+import gb.danila.controller.CalculatorController;
+import gb.danila.model.Complex;
+import gb.danila.model.repository.ComplexRepository;
 
 public class CalculatorControllerImpl implements CalculatorController {
     private ComplexRepository complexRepository;

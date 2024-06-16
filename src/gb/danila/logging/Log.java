@@ -1,4 +1,4 @@
-package logging;
+package gb.danila.logging;
 
 import java.io.FileInputStream;
 import java.util.logging.LogManager;

@@ -1,8 +1,8 @@
-package model.repository;
+package gb.danila.controller;
 
-import model.Complex;
+import gb.danila.model.Complex;
 
-public interface ComplexRepository{
+public interface CalculatorController {
     Complex plus(Complex a, Complex b);
 
     Complex minus(Complex a, Complex b);

@@ -1,14 +1,14 @@
-package view;
+package gb.danila.view;
 
-import controller.CalculatorController;
-import controller.impl.CalculatorControllerImpl;
-import exception.CommandNotFoundException;
-import exception.ComplexFormatException;
-import model.Complex;
-import util.parser.ComplexParser;
-import model.repository.ComplexRepository;
-import model.repository.impl.ComplexRepositoryImpl;
-import model.repository.impl.LoggableComplexRepository;
+import gb.danila.controller.CalculatorController;
+import gb.danila.controller.impl.CalculatorControllerImpl;
+import gb.danila.exception.CommandNotFoundException;
+import gb.danila.exception.ComplexFormatException;
+import gb.danila.model.Complex;
+import gb.danila.parser.ComplexParser;
+import gb.danila.model.repository.ComplexRepository;
+import gb.danila.model.repository.impl.ComplexRepositoryImpl;
+import gb.danila.model.repository.impl.LoggableComplexRepository;
 
 import java.util.Map;
 import java.util.Scanner;

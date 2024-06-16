@@ -1,7 +1,7 @@
-package model.repository.impl;
+package gb.danila.model.repository.impl;
 
-import model.Complex;
-import model.repository.ComplexRepository;
+import gb.danila.model.Complex;
+import gb.danila.model.repository.ComplexRepository;
 
 public class ComplexRepositoryImpl implements ComplexRepository {
     @Override
